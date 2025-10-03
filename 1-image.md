@@ -33,6 +33,8 @@ docker images
 ```
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+<img width="649" height="96" alt="image" src="https://github.com/user-attachments/assets/e0cd5b5d-3aea-4b4a-b2a2-62c1b13c1951" />
+
 
 **Identificadores**
 
