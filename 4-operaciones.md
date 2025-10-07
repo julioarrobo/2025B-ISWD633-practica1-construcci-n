@@ -5,11 +5,12 @@
 docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ```
 # COMPLETAR
-### ¿Para qué se usa el comando ls?
-### ¿Para qué sirve el argumento -l junto al comando ls?
+### ¿Para qué se usa el comando ls?: se usa para listar archivos y directorios dentro de una ubicación del sistema
+### ¿Para qué sirve el argumento -l junto al comando ls?: muestre los archivos y carpetas con información detallada en columnas.
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
+<img width="1103" height="639" alt="image" src="https://github.com/user-attachments/assets/aee0ce99-faf9-4b21-afd2-717169e332f6" />
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
@@ -44,6 +45,9 @@ Ejecutar
 whoami
 ```
 # COLOCAR UNA CAPTURA DE PANTALLA
+
+<img width="812" height="200" alt="image" src="https://github.com/user-attachments/assets/a7a58ec6-72b5-4d16-85dd-1134d501aab4" />
+
 
 **Si se visualiza el mensaje command not found, considerar**
 El problema se debe a que no se ha asignado un terminal de salida al contenedor al ejecutar el comando. Cuando usas docker exec -i jenkins-server /bin/bash en Windows, el comando se ejecuta pero no hay un terminal asignado para mostrar la salida del comando ls.
